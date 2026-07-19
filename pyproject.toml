@@ -29,7 +29,7 @@ classifiers = [
 dependencies = [
     "colorama==0.4.6",
     "numpy==2.4.3",
-    "pillow==12.1.1",
+    "pillow>=12.1.1,<13",
     "pytesseract==0.3.13",
     "language_tool_python==3.4.0"
     ]
