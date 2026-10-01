@@ -105,6 +105,10 @@ dune_ger.sup
 ```
 
 ## Changelog
+### 0.1.3 (softerist fork)
+- grey subtitle text (as drawn on UHD discs) is binarized with an adaptive threshold instead of being blanked before OCR; white text is binarized exactly as before
+- pillow pin relaxed to `>=12.1.1,<13`
+
 ### 0.1.3
 - added addtional spell and grammar correction via **LanguageTool** and **language_tool_python**
 
